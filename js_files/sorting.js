@@ -1,6 +1,6 @@
 // swap function util for sorting algorithms takes input of 2 DOM elements with .style.height feature
 function swap(el1, el2) {
-    console.log('In swap()');
+    // console.log('In swap()');
     
     let temp = el1.style.height;
     el1.style.height = el2.style.height;
@@ -115,8 +115,8 @@ function deleteChild() {
 // Selecting newarray button from DOM and adding eventlistener
 const newArray = document.querySelector(".newArray");
 newArray.addEventListener("click", function(){
-    console.log("From newArray " + arraySize.value);
-    console.log("From newArray " + delay);
+    // console.log("From newArray " + arraySize.value);
+    // console.log("From newArray " + delay);
     enableSortingBtn();
     enableSizeSlider();
     createNewArray(arraySize.value);
